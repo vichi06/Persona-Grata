@@ -1,0 +1,76 @@
+html {
+	background-image: url(hommenage.png);
+    background-repeat: no-repeat;
+
+    background-size: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: K2D;
+
+}
+
+@font-face {
+	font-family: Montserrat;
+	src: url(./Montserrat/Montserrat-Regular.ttf);
+}
+
+@font-face {
+	font-family: K2D;
+	src: url(./K2D/K2D-Regular.ttf);
+}
+
+#Titre
+{
+	margin: 15% 0% 31% 37%;
+	font-size: 327%;
+}
+
+a {
+	text-decoration : none;
+	color : black;
+}
+
+hr{
+margin: -30% 6% 3% 31%;
+
+width: 39%;
+
+height: 3px;
+
+background-color: black;
+
+border: none;
+}
+#carre {
+
+height: 359px;
+
+width: 357px;
+
+background: #f9f9f7b3;
+
+-ms-transform: rotate(45deg);
+
+-moz-transform: rotate(45deg);
+
+-webkit-transform: rotate(45deg);
+
+-o-transform: rotate(45deg);
+
+margin: 12% 51% -36% 38%;
+}
+#Text {
+	text-align : center;
+	padding-bottom : 2em;
+    font-size: 169%;
+
+}
+
+#continuer
+{
+	margin: 10% 0% 0% 91%;
+}
+
